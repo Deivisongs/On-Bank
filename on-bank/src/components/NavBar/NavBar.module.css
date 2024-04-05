@@ -1,0 +1,95 @@
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    display: flex;
+    background-color: #1E0045;
+}
+.header .divMain{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+.header .divLogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 25%;
+    min-width: 150px;
+    color: white;
+}
+
+.header .divLogo h4{
+    min-width: 80px;
+    font-size: 20px;
+}
+.header .divLogo h4 strong{
+    color: #00DBA6;
+}
+.header .divSearch{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+}
+.header .divSearch .divInput{
+    display: flex;
+    height: 35px;
+    padding-right: 10px;
+    justify-content: space-between;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #0F0022;
+}
+.header .divSearch .divInput input{
+    width: 90%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+}
+.header .divSearch .divInput input::placeholder{
+    color: #888888;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.header .divSearch > .divInput > button{
+    padding: 2px;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+}
+.header .divSearch .btnNotification{
+    color: #0F0022;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+.header .divSearch .btnNotification span{
+    color: #0F0022;
+
+}
+.header .divSearch .btnNotification:hover{
+    color: white;
+    background-color: #0F0022;
+    border: 2px solid white;
+    transition: 500ms;
+}
+.header .divSearch .btnNotification span:hover{
+    color: white;
+
+}
+
+@media (max-width: 540px){
+    .header .divSearch .divInput{
+        display: none;
+    }
+}

@@ -1,0 +1,36 @@
+.sectionPrincipal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #0F0022;
+}
+.sectionContainer{
+    margin-top: 100px;
+    padding: 2%;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+}
+.dadosConta p{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.dadosConta .pUser{
+    font-size: 20px;
+    font-weight: 500;
+}
+.dadosSaldo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 0px;
+    width: 100%;
+}
+@media (max-width: 1000px){
+    .dadosSaldo{
+        padding: 0px 0px;
+    }
+}
