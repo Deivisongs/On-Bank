@@ -1,0 +1,30 @@
+.divPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #1E0045;
+    border-radius: 10px;
+}
+.divLeft{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.divLeft .divDate{
+    font-size: 23px;
+}
+.divLeft .divDados .pCategoria{
+    font-size: 13px;
+}
+.divLeft .divDados .pNome{
+    font-size: 20px;
+}
+.divVlr p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.divisao{
+    height: 40px;
+}

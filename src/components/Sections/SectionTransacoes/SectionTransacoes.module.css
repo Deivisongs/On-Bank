@@ -1,0 +1,21 @@
+.sectionPrincipal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #0F0022;
+}
+.sectionContainer{
+    padding: 2% 2% 80px 2%;
+    width: 100%;
+    max-width: 1200px;
+}
+.pDiaaDia{
+    font-size: 22px;
+    margin: 20px 0 10px 0;
+}
+.sectionContainer .divTransacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}

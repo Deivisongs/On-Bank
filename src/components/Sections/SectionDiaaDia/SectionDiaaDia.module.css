@@ -1,0 +1,28 @@
+.sectionPrincipal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #0F0022;
+}
+.sectionContainer{
+    padding: 0 2%;
+    width: 100%;
+    max-width: 1200px;
+}
+.sectionContainer div{
+    overflow: auto;
+    display: flex;
+    gap: 15px;
+}
+.pDiaaDia{
+    font-size: 22px;
+    margin: 20px 0 10px 0;
+}
+
+@media (max-width: 768px){
+    .sectionContainer{
+        padding: 15px 2%;
+        width: 100%;
+        max-width: 1200px;
+    }
+}
