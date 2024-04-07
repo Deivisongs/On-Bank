@@ -7,7 +7,7 @@ const mostrar = "R$ " + valor
 
 
 function Saldo(){
-    const [ver, setVer] = useState(true)
+    const [ver, setVer] = useState(false)
 
     function visivel(){
         setVer(!ver);
