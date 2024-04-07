@@ -1,17 +1,28 @@
-import style from "./Saldo.module.css"
+import React, {useState} from "react";
+import style from "./Saldo.module.css";
+
+
+const valor = "100,00"
+const mostrar = "R$ " + valor
+
 
 function Saldo(){
+    const [ver, setVer] = useState(true)
+
+    function visivel(){
+        setVer(!ver);
+    }
     return(
         <div className={style.divComponent}>
             <p>Conta</p>
             <div className={style.divPrincipalSaldo}>
                 <div>
                     <p>Saldo disponível em conta</p>
-                    <p className={style.pSaldo}>R$ 100,00</p>
+                    <p className={style.pSaldo}>{ver ? mostrar : "--"}</p>
                 </div>
                 <div>
-                    <button>
-                        <span className="material-symbols-outlined">visibility</span>
+                    <button onClick={visivel}>
+                        <span className="material-symbols-outlined">{ver ? "visibility" : "visibility_off"}</span>
                     </button>
                 </div>
             </div>
