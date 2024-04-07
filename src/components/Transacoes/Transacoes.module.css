@@ -28,3 +28,19 @@
 .divisao{
     height: 40px;
 }
+
+@media (max-width: 768px){
+    .divLeft .divDate{
+        font-size: 12px;
+    }
+    .divLeft .divDados .pCategoria{
+        font-size: 8px;
+    }
+    .divLeft .divDados .pNome{
+        font-size: 10px;
+    }
+    .divVlr p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
