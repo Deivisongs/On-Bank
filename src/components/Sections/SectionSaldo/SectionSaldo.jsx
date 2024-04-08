@@ -3,7 +3,7 @@ import style from "./SectionSaldo.module.css"
 import Saldo from "../../Saldo/Saldo"
 import Cartao from "../../Cartao/Cartao"
 
-function SectionSaldo(){
+function SectionSaldo(valor){
     return(
         <section className={style.sectionPrincipal}>
             <section className={style.sectionContainer}>
@@ -13,7 +13,8 @@ function SectionSaldo(){
                     <p className={style.pAgConta}>Ag: 0001 C/C: 0725486</p>
                 </div>
                 <div className={style.dadosSaldo}>
-                    <Saldo />
+                    <Saldo
+                    valor = {valor} />
                     <Cartao />
                 </div>
                 
@@ -21,4 +22,6 @@ function SectionSaldo(){
         </section>
     )
 }
+
+
 export default SectionSaldo

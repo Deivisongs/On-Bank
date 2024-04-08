@@ -1,0 +1,17 @@
+.footer{
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0F0022;
+}
+.pFooter{
+    text-align: center;
+    font-size: 12px;
+}
+
+@media (max-width: 700px){
+    .pFooter{
+        font-size: 10px;
+    }
+}

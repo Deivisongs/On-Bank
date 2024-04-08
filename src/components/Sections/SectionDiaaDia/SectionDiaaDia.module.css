@@ -14,6 +14,11 @@
     display: flex;
     gap: 15px;
 }
+.sectionContainer div .Link{
+    width: auto;
+    background: transparent;
+    height: 100%;
+}
 .pDiaaDia{
     font-size: 22px;
     margin: 20px 0 10px 0;
