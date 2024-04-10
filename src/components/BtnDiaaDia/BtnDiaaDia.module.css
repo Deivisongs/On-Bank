@@ -15,6 +15,7 @@
 }
 .button:hover{
     background: rgb(223, 223, 223);
+    cursor: pointer;
     
 }
 .button img{
