@@ -26,12 +26,13 @@
     max-width: 400px;   
     margin-top: 20px;
 }
-.sectionContainer .form input{
+.sectionContainer .form input, .sectionContainer .form select{
     padding: 0 10px;
     height: 40px;
     background: #1E0045;
     border: none;
     border-radius: 5px;
+    margin-bottom: 20px;
        
 }
 .sectionContainer .form button{

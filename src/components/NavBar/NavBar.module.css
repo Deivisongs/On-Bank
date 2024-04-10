@@ -19,6 +19,9 @@
     min-width: 150px;
     color: white;
 }
+.header .divLogo:hover{
+    cursor: pointer;
+}
 
 .header .divLogo h4{
     min-width: 80px;

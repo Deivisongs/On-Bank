@@ -14,8 +14,7 @@ function Home(){
         <SectionSaldo 
         valor = {valor}
         />
-        <SectionDiaaDia
-        saldo = {valor} />
+        <SectionDiaaDia />
         <SectionTransacoes />
         </>
     )

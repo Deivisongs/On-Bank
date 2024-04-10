@@ -1,11 +1,20 @@
+import {useNavigate} from "react-router-dom";
 import logo from "../../assets/logo.png"
 import style from"./NavBar.module.css"
 
+
 function NavBar(){
+
+    const navigate = useNavigate()
+
+    function home(){
+        return navigate("/");
+    }
+
     return(
         <header className={style.header}>
             <div className={style.divMain}>
-                <div className={style.divLogo}>
+                <div className={style.divLogo} onClick={home}>
                     <img src={logo} alt="logo On Bank" />
                     <h4>On <strong>Bank</strong></h4>
                 </div>

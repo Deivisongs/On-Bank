@@ -14,18 +14,13 @@ import recarga from "../../../assets/recarga.png"
 import transferir from "../../../assets/transferir.png"
 
 
-function SectionDiaaDia(saldo){
-    const valor = saldo.saldo
-    console.log("Dia a Dia " + valor)
+function SectionDiaaDia(){
     return(
         <section className={style.sectionPrincipal}>
             <section className={style.sectionContainer}>
                 <p className={style.pDiaaDia}>Acesso Rápido</p>
                 <div>
-                    <Link to={{
-                        pathname: "/Pagar",
-                        state: {prop1: {valor}}
-                    }} className={style.Link}>
+                    <Link to="/pagar" className={style.Link}>
                         <BtnDiaaDia
                         img={boleto}
                         descricao="imagem botão boleto"
