@@ -17,7 +17,10 @@
     font-size: 30px;
     margin-bottom: 30px;
 }
-
+.p{
+    margin-top: 20px;
+    font-size: 14px;
+}
 .sectionContainer .form{
     display: flex;
     flex-direction: column;
@@ -43,6 +46,7 @@
     border: none;
     border-radius: 5px;  
     transition: 500ms;
+    margin-top: 20px;
 }
 .sectionContainer .form button:hover{
     font-size: 16px;

@@ -21,6 +21,7 @@ function RealizandoPagamento(){
                     <input type="text" placeholder="Numero do Boleto*" autoComplete="off"/>
                     <input type="text" placeholder="Descrição" autoComplete="off"/>
                     <input type="text" placeholder="100,00*" autoComplete="off"/>
+                    <p className={style.p}>Data para pagamento:</p>
                     <input type="date" name="date" id="date"/>
                     <button onClick={RealizandoPagamento}>Pagar</button>
                 </div>

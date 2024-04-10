@@ -21,6 +21,7 @@ function Transferir(){
                     <input type="text" name="agencia" id="agencia" placeholder="Agencia"/>
                     <input type="text" name="conta" id="conta" placeholder="Conta"/>
                     <input type="text" name="valor" id="valor" placeholder="100,00"/>
+                    <p className={style.p}>Data transferência:</p>
                     <input type="date" name="data" id="data" />
                     <button onClick={RealizandoTranferencia}>Pagar</button>
                 </form>
