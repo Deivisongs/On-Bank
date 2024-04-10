@@ -40,7 +40,7 @@
 .header .divSearch .divInput{
     display: flex;
     height: 35px;
-    padding-right: 10px;
+    padding: 0 10px;
     justify-content: space-between;
     width: 50%;
     border-radius: 20px;
